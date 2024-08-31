@@ -1,0 +1,94 @@
+/* Importação de fontes do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+
+/* Reseta margens e preenchimentos para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+/* Estilo base para a barra de navegação */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+/* Estilo para o logo */
+.logo {
+  text-decoration: none; /* Remove sublinhado */
+  color: #fff; /* Cor do texto do logo */
+  font-size: 36px; /* Tamanho da fonte do logo */
+  font-family: "Calistoga"; /* Fonte do logo */
+  cursor: default; /* Cursor padrão */
+}
+
+/* Estilo para o span dentro do logo */
+.logo span {
+  color: #6a0dad; /* Cor do texto do span no logo */
+}
+
+/* Estilo para os links na barra de navegação */
+.navbar a {
+  text-decoration: none; /* Remove sublinhado */
+  margin-right: 20px; /* Margem direita entre links */
+}
+
+/* Estilo base para as opções na barra de navegação */
+.option {
+  font-family: "inter"; /* Fonte das opções */
+  font-size: 18px; /* Tamanho da fonte das opções */
+  transition: 0.3s ease-in-out; /* Transição suave para efeitos de hover */
+  font-weight: bold; /* Peso da fonte */
+  color: #515050; /* Cor do texto das opções */
+  margin-left: 100px; /* Margem esquerda das opções */
+}
+
+/* Estilo para as opções na barra de navegação ao passar o mouse */
+.option:hover {
+  color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+/* Barra abaixo da navegação */
+.bar {
+  background-color: #6a0dad; /* Cor de fundo da barra */
+  height: 6px; /* Altura da barra */
+}
+
+/* Ícone para o modo claro */
+.modeLight {
+  background-image: url(../../assets/sun.png); /* Imagem de fundo do ícone de sol */
+  background-size: 30px; /* Tamanho da imagem de fundo */
+  margin-top: 20px; /* Margem superior */
+  width: 50px; /* Largura do ícone */
+  height: 50px; /* Altura do ícone */
+  background-repeat: no-repeat; /* Não repetir a imagem */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  margin-left: auto; /* Margem esquerda automática para alinhar à direita */
+  display: none; /* Ocultar o ícone por padrão */
+}
+
+/* Ícone para o modo escuro */
+.modeDark {
+  background-image: url(../../assets/moon.png); /* Imagem de fundo do ícone de lua */
+  background-size: 25px; /* Tamanho da imagem de fundo */
+  margin-top: 20px; /* Margem superior */
+  width: 50px; /* Largura do ícone */
+  height: 50px; /* Altura do ícone */
+  background-repeat: no-repeat; /* Não repetir a imagem */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  margin-left: auto; /* Margem esquerda automática para alinhar à direita */
+}
+
+/* FOOTER */
+
+/* Estilo base para o footer */
+footer {
+  text-align: center; /* Alinhar o texto ao centro */
+  padding: 30px; /* Preenchimento interno do footer */
+  font-size: 18px; /* Tamanho da fonte */
+  font-family: "inter"; /* Fonte do texto do footer */
+}

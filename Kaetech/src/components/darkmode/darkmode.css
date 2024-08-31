@@ -1,0 +1,34 @@
+/* Importação de fontes do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+
+/* Estilo para o modo escuro e claro */
+.dark-mode,
+.light-mode {
+  transition: background-color 0.3s ease; /* Transição suave para troca de tema */
+}
+
+.dark-mode {
+  background-color: #131313; /* Cor de fundo escura */
+}
+
+.light-mode {
+  background-color: #c9c9c9; /* Cor de fundo clara */
+}
+
+.light-mode .option {
+  color: #000; /* Cor do texto das opções no modo claro */
+}
+
+.light-mode .option:hover {
+  color: #530789; /* Cor do texto ao passar o mouse no modo claro */
+}
+
+/* Estilo para o footer no modo escuro */
+.dark-mode footer {
+  background-color: #131313; /* Cor de fundo escura */
+}
+
+/* Estilo para o footer no modo claro */
+.light-mode footer {
+  background-color: #c9c9c9; /* Cor de fundo clara */
+}
